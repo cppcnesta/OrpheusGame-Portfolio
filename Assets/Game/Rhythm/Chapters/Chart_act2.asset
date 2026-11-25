@@ -1,0 +1,3816 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9acf09e62846098448a7cd1c727a57, type: 3}
+  m_Name: Chart_act2
+  m_EditorClassIdentifier: Orpheus.Runtime::Orpheus.RhythmChartData
+  duration: 118.2
+  musicStart: 60.44
+  circleTutorialTime: 1.59
+  sliderTutorialTime: 3.4
+  spinnerTutorialTime: 5.8
+  notes:
+  - name: "Circle_001"
+    kind: 0
+    hitTime: 2.59
+    endTime: 2.59
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 617.943, y: -53.054}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_002"
+    kind: 0
+    hitTime: 3.2
+    endTime: 3.2
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 198.573, y: 207.975}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 29221f1ae01b2ea4fb2da14e56abc8bd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_003"
+    kind: 0
+    hitTime: 3.8
+    endTime: 3.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -231.751, y: 442.509}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_004"
+    kind: 1
+    hitTime: 4.4
+    endTime: 5.6
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1104.751, y: 563.785}
+      size: {x: 1180, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 1, w: 0.005}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -400, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_005"
+    kind: 0
+    hitTime: 6.2
+    endTime: 6.2
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1185.151, y: -236.349}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Spinner_006"
+    kind: 2
+    hitTime: 6.8
+    endTime: 8.3
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -732.28, y: -86.298}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: b3d03db9a2cf65d4a8123c29fe3f1203, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Slider_007"
+    kind: 1
+    hitTime: 9.2
+    endTime: 10.4
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 76.973, y: 412.486}
+      size: {x: 1180, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.272, w: 0.962}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -400, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Special_008"
+    kind: 3
+    hitTime: 11
+    endTime: 11
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1021.086, y: 347.074}
+      size: {x: 460, y: 460}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 4a399210497bd9b4ebcfa438daadc2cd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 0, y: -300}
+      size: {x: 800, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 0
+      preserveAspect: 0
+      label: "特殊音符 ×2"
+  - name: "Circle_009"
+    kind: 0
+    hitTime: 12.8
+    endTime: 12.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1328.582, y: -64.539}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_010"
+    kind: 0
+    hitTime: 13.41
+    endTime: 13.41
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 830.694, y: -143.659}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 29221f1ae01b2ea4fb2da14e56abc8bd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_011"
+    kind: 1
+    hitTime: 13.99
+    endTime: 15.2
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 60.857, y: 315.69}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.962, w: 0.273}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_012"
+    kind: 0
+    hitTime: 15.8
+    endTime: 15.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -778.645, y: 556.842}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_013"
+    kind: 0
+    hitTime: 16.4
+    endTime: 16.4
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1200.269, y: 339.587}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_014"
+    kind: 0
+    hitTime: 17
+    endTime: 17
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1306.567, y: -119.013}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: d4d6ca658632cce47ac60913fab1e5be, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_015"
+    kind: 0
+    hitTime: 17.6
+    endTime: 17.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -813.121, y: -166.856}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 50948ae8ba372ce44b12a36a7f16b650, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_016"
+    kind: 0
+    hitTime: 18.2
+    endTime: 18.2
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -381.737, y: 63.829}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 01056c9f08e0565448b92494dc31897f, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_017"
+    kind: 1
+    hitTime: 18.8
+    endTime: 20
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 396.588, y: 502.675}
+      size: {x: 1180, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.246, w: 0.969}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -400, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_018"
+    kind: 0
+    hitTime: 20.6
+    endTime: 20.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1164.914, y: 279.107}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: efc416b34b19bc04789cd1bec781b2a8, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_019"
+    kind: 0
+    hitTime: 21.79
+    endTime: 21.79
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1194.802, y: -199.615}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_020"
+    kind: 0
+    hitTime: 23
+    endTime: 23
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 506.853, y: -70.392}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 29221f1ae01b2ea4fb2da14e56abc8bd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_021"
+    kind: 1
+    hitTime: 23.6
+    endTime: 24.8
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -268.362, y: 376.61}
+      size: {x: 1180, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.965, w: 0.262}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -400, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_022"
+    kind: 0
+    hitTime: 25.39
+    endTime: 25.39
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1113.652, y: 508.274}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_023"
+    kind: 0
+    hitTime: 26
+    endTime: 26
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1321.477, y: 42.366}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_024"
+    kind: 0
+    hitTime: 26.59
+    endTime: 26.59
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -905.78, y: -237.104}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: d4d6ca658632cce47ac60913fab1e5be, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_025"
+    kind: 0
+    hitTime: 27.19
+    endTime: 27.19
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -444.587, y: -80.482}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 50948ae8ba372ce44b12a36a7f16b650, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_026"
+    kind: 0
+    hitTime: 27.8
+    endTime: 27.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -21.053, y: 158.968}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 01056c9f08e0565448b92494dc31897f, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_027"
+    kind: 1
+    hitTime: 28.4
+    endTime: 29.59
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1024.8, y: -117.692}
+      size: {x: 1176, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.94, w: -0.342}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -398, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_028"
+    kind: 0
+    hitTime: 30.19
+    endTime: 30.19
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 359.915, y: -41.162}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: efc416b34b19bc04789cd1bec781b2a8, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_029"
+    kind: 0
+    hitTime: 30.8
+    endTime: 30.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -67.77, y: 211.43}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_030"
+    kind: 0
+    hitTime: 31.39
+    endTime: 31.39
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -488.36, y: 443.049}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 29221f1ae01b2ea4fb2da14e56abc8bd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Special_031"
+    kind: 3
+    hitTime: 31.99
+    endTime: 31.99
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -962.684, y: 558.251}
+      size: {x: 460, y: 460}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 4a399210497bd9b4ebcfa438daadc2cd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 0, y: -300}
+      size: {x: 800, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 0
+      preserveAspect: 0
+      label: "特殊音符 ×2"
+  - name: "Circle_032"
+    kind: 0
+    hitTime: 32.6
+    endTime: 32.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1324.029, y: 208.674}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_033"
+    kind: 1
+    hitTime: 33.2
+    endTime: 34.4
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -693.076, y: -326.959}
+      size: {x: 1180, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: -0.123, w: 0.992}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -400, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_034"
+    kind: 0
+    hitTime: 35
+    endTime: 35
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 34.731, y: 237.232}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: d4d6ca658632cce47ac60913fab1e5be, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Spinner_035"
+    kind: 2
+    hitTime: 35.6
+    endTime: 37.09
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 467.848, y: 464.035}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: b3d03db9a2cf65d4a8123c29fe3f1203, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_036"
+    kind: 0
+    hitTime: 37.4
+    endTime: 37.4
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1101.691, y: 357.405}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 50948ae8ba372ce44b12a36a7f16b650, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_037"
+    kind: 1
+    hitTime: 38
+    endTime: 39.2
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 726.195, y: -313.605}
+      size: {x: 1180, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.995, w: -0.1}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -400, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_038"
+    kind: 0
+    hitTime: 39.8
+    endTime: 39.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 20.497, y: 272.093}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 01056c9f08e0565448b92494dc31897f, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_039"
+    kind: 0
+    hitTime: 41.6
+    endTime: 41.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -743.2, y: 559.733}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_040"
+    kind: 0
+    hitTime: 42.19
+    endTime: 42.19
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1181.02, y: 379.546}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 29221f1ae01b2ea4fb2da14e56abc8bd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_041"
+    kind: 1
+    hitTime: 42.79
+    endTime: 44
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -775.69, y: -318.404}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: -0.104, w: 0.995}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_042"
+    kind: 0
+    hitTime: 44.6
+    endTime: 44.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -75.689, y: 296.265}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_043"
+    kind: 0
+    hitTime: 45.19
+    endTime: 45.19
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 373.6, y: 505.385}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_044"
+    kind: 0
+    hitTime: 45.8
+    endTime: 45.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1000.442, y: 368.537}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: d4d6ca658632cce47ac60913fab1e5be, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_045"
+    kind: 0
+    hitTime: 46.4
+    endTime: 46.4
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1328.691, y: -0.508}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 50948ae8ba372ce44b12a36a7f16b650, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_046"
+    kind: 0
+    hitTime: 47
+    endTime: 47
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 888.733, y: -166.092}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 01056c9f08e0565448b92494dc31897f, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_047"
+    kind: 1
+    hitTime: 47.6
+    endTime: 48.8
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 125.882, y: 292.426}
+      size: {x: 1180, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.961, w: 0.277}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -400, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_048"
+    kind: 0
+    hitTime: 49.4
+    endTime: 49.4
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -706.341, y: 559.418}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: efc416b34b19bc04789cd1bec781b2a8, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_049"
+    kind: 0
+    hitTime: 51.2
+    endTime: 51.2
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1312.821, y: 93.19}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Special_050"
+    kind: 3
+    hitTime: 51.79
+    endTime: 51.79
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -921.083, y: -190.579}
+      size: {x: 460, y: 460}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 4a399210497bd9b4ebcfa438daadc2cd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 0, y: -300}
+      size: {x: 800, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 0
+      preserveAspect: 0
+      label: "特殊音符 ×2"
+  - name: "Slider_051"
+    kind: 1
+    hitTime: 52.39
+    endTime: 53.6
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -141.111, y: 250.103}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.269, w: 0.963}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_052"
+    kind: 0
+    hitTime: 54.2
+    endTime: 54.2
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 687.62, y: 508.357}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_053"
+    kind: 0
+    hitTime: 54.8
+    endTime: 54.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1120.372, y: 290.791}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_054"
+    kind: 0
+    hitTime: 55.4
+    endTime: 55.4
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1271.544, y: -162.078}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: d4d6ca658632cce47ac60913fab1e5be, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_055"
+    kind: 0
+    hitTime: 56.01
+    endTime: 56.01
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 758.13, y: -155.643}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 50948ae8ba372ce44b12a36a7f16b650, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_056"
+    kind: 0
+    hitTime: 56.6
+    endTime: 56.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 326.717, y: 75.404}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 01056c9f08e0565448b92494dc31897f, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_057"
+    kind: 1
+    hitTime: 57.19
+    endTime: 58.4
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1114.077, y: 608.403}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.998, w: 0.07}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_058"
+    kind: 0
+    hitTime: 58.99
+    endTime: 58.99
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1173.882, y: -202.265}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: efc416b34b19bc04789cd1bec781b2a8, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_059"
+    kind: 0
+    hitTime: 60.19
+    endTime: 60.19
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -484.735, y: -74.747}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_060"
+    kind: 0
+    hitTime: 60.8
+    endTime: 60.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -63.88, y: 163.149}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 29221f1ae01b2ea4fb2da14e56abc8bd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_061"
+    kind: 0
+    hitTime: 61.39
+    endTime: 61.39
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 374.312, y: 405.287}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_062"
+    kind: 1
+    hitTime: 61.99
+    endTime: 63.2
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1020.527, y: -153.581}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.94, w: -0.342}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_063"
+    kind: 0
+    hitTime: 63.79
+    endTime: 63.79
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 326.357, y: -24.332}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Spinner_064"
+    kind: 2
+    hitTime: 64.39
+    endTime: 65.9
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -102.433, y: 226.805}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: b3d03db9a2cf65d4a8123c29fe3f1203, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Slider_065"
+    kind: 1
+    hitTime: 66.79
+    endTime: 68
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1022.024, y: -110.044}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: -0.342, w: 0.94}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_066"
+    kind: 0
+    hitTime: 68.59
+    endTime: 68.59
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -368.969, y: -38.864}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: d4d6ca658632cce47ac60913fab1e5be, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_067"
+    kind: 0
+    hitTime: 70.4
+    endTime: 70.4
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 342.65, y: 379.092}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Special_068"
+    kind: 3
+    hitTime: 70.99
+    endTime: 70.99
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1138.322, y: 350.268}
+      size: {x: 460, y: 460}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 4a399210497bd9b4ebcfa438daadc2cd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 0, y: -300}
+      size: {x: 800, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 0
+      preserveAspect: 0
+      label: "特殊音符 ×2"
+  - name: "Slider_069"
+    kind: 1
+    hitTime: 71.59
+    endTime: 72.8
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 678.06, y: -306.732}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.996, w: -0.09}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_070"
+    kind: 0
+    hitTime: 73.39
+    endTime: 73.39
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -36.399, y: 258.068}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_071"
+    kind: 0
+    hitTime: 73.99
+    endTime: 73.99
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -469.411, y: 481.364}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_072"
+    kind: 0
+    hitTime: 74.58
+    endTime: 74.58
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -948.557, y: 547.215}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: d4d6ca658632cce47ac60913fab1e5be, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_073"
+    kind: 0
+    hitTime: 75.2
+    endTime: 75.2
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1314.72, y: 172.543}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 50948ae8ba372ce44b12a36a7f16b650, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_074"
+    kind: 0
+    hitTime: 75.79
+    endTime: 75.79
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1032.814, y: -237.497}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 01056c9f08e0565448b92494dc31897f, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_075"
+    kind: 1
+    hitTime: 76.39
+    endTime: 77.6
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -228.051, y: 152.71}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.26, w: 0.965}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_076"
+    kind: 0
+    hitTime: 78.19
+    endTime: 78.19
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 571.532, y: 517.211}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: efc416b34b19bc04789cd1bec781b2a8, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_077"
+    kind: 0
+    hitTime: 80
+    endTime: 80
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1232.678, y: 295.362}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_078"
+    kind: 0
+    hitTime: 80.59
+    endTime: 80.59
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1261.045, y: -196.482}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 29221f1ae01b2ea4fb2da14e56abc8bd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_079"
+    kind: 1
+    hitTime: 81.19
+    endTime: 82.4
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 396.226, y: 90.723}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.968, w: 0.25}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_080"
+    kind: 0
+    hitTime: 83
+    endTime: 83
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -385.822, y: 513.808}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_081"
+    kind: 0
+    hitTime: 83.6
+    endTime: 83.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -867.945, y: 535.068}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_082"
+    kind: 0
+    hitTime: 84.19
+    endTime: 84.19
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1244.842, y: 243.577}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: d4d6ca658632cce47ac60913fab1e5be, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_083"
+    kind: 0
+    hitTime: 84.8
+    endTime: 84.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1203.19, y: -233.572}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 50948ae8ba372ce44b12a36a7f16b650, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_084"
+    kind: 0
+    hitTime: 85.39
+    endTime: 85.39
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -738.733, y: -88.574}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 01056c9f08e0565448b92494dc31897f, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_085"
+    kind: 1
+    hitTime: 86
+    endTime: 87.21
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 16.739, y: 374.372}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.273, w: 0.962}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_086"
+    kind: 0
+    hitTime: 87.79
+    endTime: 87.79
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1023.222, y: 353.339}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: efc416b34b19bc04789cd1bec781b2a8, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_087"
+    kind: 0
+    hitTime: 88.4
+    endTime: 88.4
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1329.843, y: -27}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_088"
+    kind: 0
+    hitTime: 89
+    endTime: 89
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 862.31, y: -174.257}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 29221f1ae01b2ea4fb2da14e56abc8bd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_089"
+    kind: 0
+    hitTime: 89.6
+    endTime: 89.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 431.495, y: 58.558}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_090"
+    kind: 0
+    hitTime: 90.19
+    endTime: 90.19
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 7.188, y: 307.59}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_091"
+    kind: 1
+    hitTime: 90.8
+    endTime: 92.01
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1018.573, y: 612.125}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.997, w: 0.079}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Special_092"
+    kind: 3
+    hitTime: 92.59
+    endTime: 92.59
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1253.639, y: -168.998}
+      size: {x: 460, y: 460}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 4a399210497bd9b4ebcfa438daadc2cd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 0, y: -300}
+      size: {x: 800, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 0
+      preserveAspect: 0
+      label: "特殊音符 ×2"
+  - name: "Spinner_093"
+    kind: 2
+    hitTime: 93.2
+    endTime: 94.69
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -729.18, y: -156.565}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: b3d03db9a2cf65d4a8123c29fe3f1203, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Slider_094"
+    kind: 1
+    hitTime: 95.59
+    endTime: 96.81
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 98.933, y: 304.086}
+      size: {x: 1188, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.263, w: 0.965}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -404, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_095"
+    kind: 0
+    hitTime: 97.39
+    endTime: 97.39
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1103.143, y: 363.024}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 50948ae8ba372ce44b12a36a7f16b650, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_096"
+    kind: 0
+    hitTime: 98
+    endTime: 98
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1286.214, y: -76.563}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_097"
+    kind: 0
+    hitTime: 98.6
+    endTime: 98.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 801.512, y: -213.546}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 29221f1ae01b2ea4fb2da14e56abc8bd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_098"
+    kind: 0
+    hitTime: 99.22
+    endTime: 99.22
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 346.368, y: -15.295}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_099"
+    kind: 0
+    hitTime: 99.79
+    endTime: 99.79
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -70.734, y: 226.966}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 8d70def380f6189499b2f1b0edfae267, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_100"
+    kind: 1
+    hitTime: 100.4
+    endTime: 101.61
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1018.399, y: -165.776}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: -0.342, w: 0.94}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_101"
+    kind: 0
+    hitTime: 102.19
+    endTime: 102.19
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -313.98, y: -19.531}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: d4d6ca658632cce47ac60913fab1e5be, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_102"
+    kind: 0
+    hitTime: 102.8
+    endTime: 102.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 115.143, y: 233.739}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 50948ae8ba372ce44b12a36a7f16b650, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_103"
+    kind: 0
+    hitTime: 103.4
+    endTime: 103.4
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 552.45, y: 444.257}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 01056c9f08e0565448b92494dc31897f, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_104"
+    kind: 0
+    hitTime: 104
+    endTime: 104
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1133.328, y: 367.455}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: efc416b34b19bc04789cd1bec781b2a8, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_105"
+    kind: 0
+    hitTime: 104.59
+    endTime: 104.59
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1233.841, y: -129.285}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 270ac51ba15e1df489ebcca30757bf51, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_106"
+    kind: 1
+    hitTime: 105.19
+    endTime: 106.41
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 336.716, y: -63.395}
+      size: {x: 1188, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.987, w: 0.162}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -404, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_107"
+    kind: 0
+    hitTime: 107
+    endTime: 107
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -418.575, y: 429.188}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_108"
+    kind: 0
+    hitTime: 107.6
+    endTime: 107.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -885.451, y: 559.999}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_109"
+    kind: 0
+    hitTime: 108.2
+    endTime: 108.2
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1303.326, y: 260.248}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 29221f1ae01b2ea4fb2da14e56abc8bd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_110"
+    kind: 0
+    hitTime: 108.8
+    endTime: 108.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1156.79, y: -215.385}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: c8c4a6a57b765504f87d55999ff85d4e, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Special_111"
+    kind: 3
+    hitTime: 109.39
+    endTime: 109.39
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -681.577, y: -143.474}
+      size: {x: 460, y: 460}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 4a399210497bd9b4ebcfa438daadc2cd, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 0, y: -300}
+      size: {x: 800, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 0}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 0
+      preserveAspect: 0
+      label: "特殊音符 ×2"
+  - name: "Slider_112"
+    kind: 1
+    hitTime: 110
+    endTime: 111.21
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 81.763, y: 309.317}
+      size: {x: 1184, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.275, w: 0.961}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -402, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_113"
+    kind: 0
+    hitTime: 111.8
+    endTime: 111.8
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1078.204, y: 352.172}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: d4d6ca658632cce47ac60913fab1e5be, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_114"
+    kind: 0
+    hitTime: 112.4
+    endTime: 112.4
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 1311.673, y: -90.326}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 50948ae8ba372ce44b12a36a7f16b650, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_115"
+    kind: 0
+    hitTime: 113
+    endTime: 113
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 835.862, y: -171.611}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 01056c9f08e0565448b92494dc31897f, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_116"
+    kind: 0
+    hitTime: 113.59
+    endTime: 113.59
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: 409.409, y: 70.367}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: efc416b34b19bc04789cd1bec781b2a8, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Circle_117"
+    kind: 0
+    hitTime: 114.19
+    endTime: 114.19
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -5.008, y: 323.877}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 270ac51ba15e1df489ebcca30757bf51, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""
+  - name: "Slider_118"
+    kind: 1
+    hitTime: 114.79
+    endTime: 116.02
+    approachTime: 1.6
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: 0.8
+    smoothTime: 0.08
+    requiredRotation: 360
+    triggerPaperEffect: 0
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -973.228, y: 616.394}
+      size: {x: 1192, y: 375}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0.996, w: 0.085}
+      sprite: {fileID: 21300000, guid: a4c7272bc0e457648b0759513b748280, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "0"
+      anchorMin: {x: 0, y: 0.5}
+      anchorMax: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -50, y: -80}
+      size: {x: 100, y: 100}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 2e53552c9b184454ea92d5f75436a982, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+    - childPath: "1"
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -406, y: 0}
+      size: {x: 378, y: 406}
+      scale: {x: 0.7, y: 0.7, z: 1}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      sprite: {fileID: 21300000, guid: 7343c09963952924f92828a3a48597a2, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 0
+      label: ""
+  - name: "Circle_119"
+    kind: 0
+    hitTime: 116.6
+    endTime: 116.6
+    approachTime: 1.5
+    perfectWindow: 0.1
+    goodWindow: 0.25
+    dragSensitivity: .8
+    smoothTime: .08
+    requiredRotation: 360
+    triggerPaperEffect: 1
+    rumorText: ""
+    visuals:
+    - childPath: ""
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
+      position: {x: -1288.761, y: -172.386}
+      size: {x: 383, y: 383}
+      scale: {x: 1, y: 1, z: 1}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      sprite: {fileID: 21300000, guid: 48e705c210a4e7346b1cc61cb7ff96d1, type: 3}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      hasImage: 1
+      preserveAspect: 1
+      label: ""

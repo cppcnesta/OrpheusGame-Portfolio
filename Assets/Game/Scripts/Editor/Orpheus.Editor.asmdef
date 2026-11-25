@@ -1,0 +1,15 @@
+{
+  "name": "Orpheus.Editor",
+  "rootNamespace": "Orpheus.Editor",
+  "references": [
+    "Orpheus.Runtime",
+    "Unity.TextMeshPro",
+    "Unity.ugui",
+    "Unity.InputSystem",
+    "Orpheus.VN",
+    "Orpheus.VN.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

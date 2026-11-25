@@ -1,0 +1,40 @@
+俄耳甫斯 · 目录说明
+
+Assets/
+├─ OrpheusVN/          通用视觉小说框架（剧本格式、执行器、对话框等），不含本游戏的东西，可以拿到别的项目用
+│  ├─ Runtime/         Core（执行器、存档）、Commands（剧本命令）、Views（对话框、背景、CG、声音）、Data（角色表、素材表）
+│  ├─ Editor/          剧本导入和「检查所有剧本」
+│  └─ Examples/        示例剧本和两个示例组件（掉落效果、调试用玩法），正式游戏不用
+├─ Game/               俄耳甫斯这个游戏
+│  ├─ Scenes/          Persistent.unity（唯一的正式场景）、RhythmTest.unity（单独测音游）
+│  ├─ Story/           剧本 Orpheus.orph、角色表 Characters 和每个角色、素材表 AssetLibrary（剧本里的背景/BGM/音效名字都在这里登记）
+│  ├─ Rhythm/          音游
+│  │  ├─ Scripts/      音游代码（音符、判定、计分、反馈）
+│  │  └─ Chapters/     每章一份：章节配置 Chapter_*（歌、背景、谱面、从剧本哪一段取台词和白纸）+ 谱面 Chart_*
+│  ├─ Scripts/
+│  │  ├─ Runtime/      游戏代码：GameFlow（入口）；VNIntegration（剧本命令接到游戏：玩法、白纸、灯光、布景、谢幕……）、
+│  │  │                Stage（舞台和纸堆）、UI（主页、对话框外观、报幕、解谜面板……）、Rhythm（音游和剧本之间的数据）
+│  │  ├─ Editor/       菜单 Orpheus：打开场景、检查工程、构建（Windows / 发布版 / Mac）
+│  │  └─ Diagnostics/  自动测试（冒烟测试、截图）
+│  ├─ Prefabs/         纸条（剧情和音游共用）、RhythmPerformance（整个音游界面）
+│  └─ Shaders/         主页水波、纸纹、灯光
+├─ Art/                美术和声音，按用途分
+│  ├─ Backgrounds/     全屏背景（序幕、剧场、舞台、结局）；三幕关灯的舞台共用 stageoff_background
+│  ├─ Stage/           舞台图层（台子、前景、纸堆各阶段）
+│  │  └─ Act3/        第三幕：布景（底图、台阶、纸堆、雾、幕布）、四段人物、两个剪影、每段的灯光
+│  ├─ Characters/      立绘和表情（orpheus / hades / eurydice），舞台演员（actors）
+│  ├─ CG/              CG：欧律狄刻之死、婚礼、谢幕、结局动画
+│  ├─ Title/           主页（背景、芦苇、倒影、logo 和水波材质）
+│  ├─ UI/              对话框、纸条动画帧（Paper）、音游界面（Rhythm）
+│  ├─ Fonts/           字体
+│  └─ Audio/           BGM、SE（剧情音效）、Title（主页音效）、Rhythm（音游音效）、Notes（最后旋律的四个音）
+├─ Settings/           渲染管线、输入设置
+└─ TextMesh Pro/       字体渲染插件（Unity 自带的资源，别改）
+
+约定
+* 新素材按用途放进 Art 对应的文件夹；剧本里要用的名字记得登记到 Game/Story/AssetLibrary。
+* 示意图、参考图不放进 Assets（会被 Unity 导入）。
+* 改剧情只改 Game/Story/Orpheus.orph；音游里的台词和白纸也从剧本里取，不用另外写。
+* 共享的东西要先商量再改：Settings、ProjectSettings、Packages、OrpheusVN。
+* 脚本加命名空间。
+* 移动或改名素材请在 Unity 里操作（或者连同 .meta 一起移动），否则引用会断。

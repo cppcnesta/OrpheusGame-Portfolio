@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TitleWater_Reeds
+  m_Shader: {fileID: 4800000, guid: 4f976fde3ccc16f469dc9da9e9f96be6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Amplitude: 0
+    - _ColorMask: 15
+    - _EdgeSoftness: 24
+    - _Fade: 0
+    - _Frequency: 2.2
+    - _HazeAmplitude: 2
+    - _HazeScale: 150
+    - _HazeSpeed: 0.8
+    - _MouseAmplitude: 6
+    - _MouseLife: 1.8
+    - _MouseShine: 0
+    - _MouseSize: 260
+    - _RingAmplitude: 0
+    - _RingPeriod: 3.2
+    - _RingShine: 0
+    - _RingSize: 260
+    - _RingSquash: 3.5
+    - _Shimmer: 0
+    - _Speed: 1.4
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _SwayAmplitude: 16
+    - _SwayBaseY: -545
+    - _SwayHeight: 215
+    - _SwaySpeed: 1.1
+    - _UseUIAlphaClip: 0
+    - _WaterDepth: 220
+    - _WaterY: -2000
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _RectSize: {r: 1920, g: 210.5, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 1d00e5aa280cedc49bc92781778ffe2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4879861689576822123
+    second: theatre_pile_5_0
+  - first:
+      213: -5568801466140490950
+    second: theatre_pile_5_1
+  - first:
+      213: 5648741768878763811
+    second: theatre_pile_5_2
+  - first:
+      213: 6206988016501030271
+    second: theatre_pile_5_3
+  - first:
+      213: -10315098688018353
+    second: theatre_pile_5_4
+  - first:
+      213: -1406337377824286740
+    second: theatre_pile_5_5
+  - first:
+      213: 1013724163762043306
+    second: theatre_pile_5_6
+  - first:
+      213: 2048275325651461373
+    second: theatre_pile_5_7
+  - first:
+      213: -6024558402840025384
+    second: theatre_pile_5_8
+  - first:
+      213: 78562894718539017
+    second: theatre_pile_5_9
+  - first:
+      213: 1763180602965503398
+    second: theatre_pile_5_10
+  - first:
+      213: 2531489957083978326
+    second: theatre_pile_5_11
+  - first:
+      213: 1340453769200350134
+    second: theatre_pile_5_12
+  - first:
+      213: -5754493125871904167
+    second: theatre_pile_5_13
+  - first:
+      213: 3385718368034944880
+    second: theatre_pile_5_14
+  - first:
+      213: 8045741028358738204
+    second: theatre_pile_5_15
+  - first:
+      213: -1659556308888779551
+    second: theatre_pile_5_16
+  - first:
+      213: -5404350970574955063
+    second: theatre_pile_5_17
+  - first:
+      213: 966946963952827086
+    second: theatre_pile_5_18
+  - first:
+      213: -7190795399607792823
+    second: theatre_pile_5_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: theatre_pile_5_0
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 1087
+        width: 202
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a6cbfd5af374cb0800000000000000
+      internalID: -4879861689576822123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_1
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 1019
+        width: 160
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3385024294a7b2b0800000000000000
+      internalID: -5568801466140490950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_2
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 999
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f2ee1e5bc546e40800000000000000
+      internalID: 5648741768878763811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_3
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 1032
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d76a807b6a32650800000000000000
+      internalID: 6206988016501030271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 611
+        width: 140
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48a0eee87a5bdff0800000000000000
+      internalID: -10315098688018353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 654
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7dd602b9fab7ce0800000000000000
+      internalID: -1406337377824286740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_6
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 629
+        width: 130
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9344981c8711e00800000000000000
+      internalID: 1013724163762043306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 472
+        width: 167
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df427a37e8fec6c10800000000000000
+      internalID: 2048275325651461373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_8
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 226
+        width: 745
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d620265d08746ca0800000000000000
+      internalID: -6024558402840025384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_9
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 159
+        width: 840
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9059938598c171100800000000000000
+      internalID: 78562894718539017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_10
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 353
+        width: 346
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad2e9aaa63187810800000000000000
+      internalID: 1763180602965503398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_11
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 289
+        width: 195
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a957c14b8a12320800000000000000
+      internalID: 2531489957083978326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_12
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 338
+        width: 232
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3350fd99f3a9210800000000000000
+      internalID: 1340453769200350134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_13
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 117
+        width: 1097
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a5af99dfee320b0800000000000000
+      internalID: -5754493125871904167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187
+        width: 286
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077fc3cdaec7cfe20800000000000000
+      internalID: 3385718368034944880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_15
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 148
+        width: 244
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11db1e46d638af60800000000000000
+      internalID: 8045741028358738204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_16
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 186
+        width: 315
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e40deb645218f8e0800000000000000
+      internalID: -1659556308888779551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_17
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 118
+        width: 456
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd975dfc63eff4b0800000000000000
+      internalID: -5404350970574955063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 158
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecafc0ff3294b6d00800000000000000
+      internalID: 966946963952827086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: theatre_pile_5_19
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 54
+        width: 267
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b4dd9bea9253c90800000000000000
+      internalID: -7190795399607792823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      theatre_pile_5_0: -4879861689576822123
+      theatre_pile_5_1: -5568801466140490950
+      theatre_pile_5_10: 1763180602965503398
+      theatre_pile_5_11: 2531489957083978326
+      theatre_pile_5_12: 1340453769200350134
+      theatre_pile_5_13: -5754493125871904167
+      theatre_pile_5_14: 3385718368034944880
+      theatre_pile_5_15: 8045741028358738204
+      theatre_pile_5_16: -1659556308888779551
+      theatre_pile_5_17: -5404350970574955063
+      theatre_pile_5_18: 966946963952827086
+      theatre_pile_5_19: -7190795399607792823
+      theatre_pile_5_2: 5648741768878763811
+      theatre_pile_5_3: 6206988016501030271
+      theatre_pile_5_4: -10315098688018353
+      theatre_pile_5_5: -1406337377824286740
+      theatre_pile_5_6: 1013724163762043306
+      theatre_pile_5_7: 2048275325651461373
+      theatre_pile_5_8: -6024558402840025384
+      theatre_pile_5_9: 78562894718539017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,11 @@
+{
+  "name": "Orpheus.Runtime",
+  "rootNamespace": "Orpheus",
+  "references": [
+    "Unity.TextMeshPro",
+    "Unity.ugui",
+    "Unity.InputSystem",
+    "Orpheus.VN"
+  ],
+  "autoReferenced": true
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02ca6540dc4188429fa20dbd8b234da, type: 3}
+  m_Name: DemoDefinition
+  m_EditorClassIdentifier: Orpheus.Runtime::Orpheus.DemoDefinition
+  chapters:
+  - {fileID: 11400000, guid: 518e54caccc1f2748995557cbb4da539, type: 2}
+  - {fileID: 11400000, guid: 28cf9abf8b154ff44ad29051f1fb1c84, type: 2}
+  - {fileID: 11400000, guid: 2e23221922074e24b8c2b753239e2b66, type: 2}
+  - {fileID: 11400000, guid: 63924b46b0b14154c8fd2b9c0b0b5f6a, type: 2}
+  prototypeTrueOrder:
+  - prologue
+  - act1
+  - act2
+  - act3

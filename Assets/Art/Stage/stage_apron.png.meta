@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 468048f692d47c5448a330dd96d4d789
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -983832600416591361
+    second: stage_apron_0
+  - first:
+      213: -7914427738245700328
+    second: stage_apron_1
+  - first:
+      213: -4110888463642518071
+    second: stage_apron_2
+  - first:
+      213: -2467009350799614553
+    second: stage_apron_3
+  - first:
+      213: 5425883732656607915
+    second: stage_apron_4
+  - first:
+      213: -8644050292690781439
+    second: stage_apron_5
+  - first:
+      213: 4130117428013307227
+    second: stage_apron_6
+  - first:
+      213: 5208671121221722389
+    second: stage_apron_7
+  - first:
+      213: 4880587460752954107
+    second: stage_apron_8
+  - first:
+      213: 4705341647067152724
+    second: stage_apron_9
+  - first:
+      213: -4724693868684066170
+    second: stage_apron_10
+  - first:
+      213: 7829337484062673081
+    second: stage_apron_11
+  - first:
+      213: 7326503589830541594
+    second: stage_apron_12
+  - first:
+      213: -6002018838915739128
+    second: stage_apron_13
+  - first:
+      213: -8526323436975274567
+    second: stage_apron_14
+  - first:
+      213: -4603422296481713526
+    second: stage_apron_15
+  - first:
+      213: -7266753811082307086
+    second: stage_apron_16
+  - first:
+      213: 5503672315437162244
+    second: stage_apron_17
+  - first:
+      213: -6649513512652409312
+    second: stage_apron_18
+  - first:
+      213: 4358878795573210238
+    second: stage_apron_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stage_apron_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 180
+        width: 90
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff168b56679b852f0800000000000000
+      internalID: -983832600416591361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 182
+        width: 102
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815ed5d87ed4a2290800000000000000
+      internalID: -7914427738245700328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 181
+        width: 151
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd165509b033f6c0800000000000000
+      internalID: -4110888463642518071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 183
+        width: 105
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad9504f01c63cdd0800000000000000
+      internalID: -2467009350799614553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_4
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 185
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2519dd18c9c4b40800000000000000
+      internalID: 5425883732656607915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 181
+        width: 90
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bfd839e0a2a0880800000000000000
+      internalID: -8644050292690781439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_6
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 196
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5512612bef115930800000000000000
+      internalID: 4130117428013307227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 183
+        width: 90
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511a14cb9cae84840800000000000000
+      internalID: 5208671121221722389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_8
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 187
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2d765ef645bb340800000000000000
+      internalID: 4880587460752954107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_9
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 170
+        width: 112
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4510a4c4c4bbc4140800000000000000
+      internalID: 4705341647067152724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_10
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 144
+        width: 286
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682ce9c75f38e6eb0800000000000000
+      internalID: -4724693868684066170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_11
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 0
+        width: 946
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8c43cc5f467ac60800000000000000
+      internalID: 7829337484062673081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_12
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 187
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11497d8238fca560800000000000000
+      internalID: 7326503589830541594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_13
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 185
+        width: 104
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80299338aab84bca0800000000000000
+      internalID: -6002018838915739128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_14
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 183
+        width: 91
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5400b220a6ca980800000000000000
+      internalID: -8526323436975274567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_15
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 186
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a823813bfcb5d10c0800000000000000
+      internalID: -4603422296481713526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_16
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 184
+        width: 105
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f91934e8ed472b90800000000000000
+      internalID: -7266753811082307086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_17
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 182
+        width: 151
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f98c9afc8f06c40800000000000000
+      internalID: 5503672315437162244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_18
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 183
+        width: 102
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026713dd0be28b3a0800000000000000
+      internalID: -6649513512652409312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stage_apron_19
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 181
+        width: 90
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7caf159b29dd7c30800000000000000
+      internalID: 4358878795573210238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      stage_apron_0: -983832600416591361
+      stage_apron_1: -7914427738245700328
+      stage_apron_10: -4724693868684066170
+      stage_apron_11: 7829337484062673081
+      stage_apron_12: 7326503589830541594
+      stage_apron_13: -6002018838915739128
+      stage_apron_14: -8526323436975274567
+      stage_apron_15: -4603422296481713526
+      stage_apron_16: -7266753811082307086
+      stage_apron_17: 5503672315437162244
+      stage_apron_18: -6649513512652409312
+      stage_apron_19: 4358878795573210238
+      stage_apron_2: -4110888463642518071
+      stage_apron_3: -2467009350799614553
+      stage_apron_4: 5425883732656607915
+      stage_apron_5: -8644050292690781439
+      stage_apron_6: 4130117428013307227
+      stage_apron_7: 5208671121221722389
+      stage_apron_8: 4880587460752954107
+      stage_apron_9: 4705341647067152724
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

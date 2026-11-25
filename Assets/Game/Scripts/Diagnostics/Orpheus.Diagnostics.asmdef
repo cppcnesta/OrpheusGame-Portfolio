@@ -1,0 +1,15 @@
+{
+  "name": "Orpheus.Diagnostics",
+  "rootNamespace": "Orpheus.Diagnostics",
+  "references": [
+    "Orpheus.Runtime",
+    "Orpheus.VN",
+    "Unity.TextMeshPro",
+    "Unity.ugui",
+    "Unity.InputSystem"
+  ],
+  "defineConstraints": [
+    "UNITY_EDITOR || DEVELOPMENT_BUILD"
+  ],
+  "autoReferenced": false
+}

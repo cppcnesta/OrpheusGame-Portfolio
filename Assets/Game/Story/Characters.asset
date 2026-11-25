@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb92b54324312e488d6811536ebc2de, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: Orpheus.VN::Orpheus.VN.CharacterDatabase
+  characters:
+  - {fileID: 11400000, guid: 900991bbb0362f248a3af59df0f662e9, type: 2}
+  - {fileID: 11400000, guid: 97e6daf3b65cb7648b2b56eafed49b89, type: 2}
+  - {fileID: 11400000, guid: 7c23766b2be29bd46b0e6abbdc0ceacc, type: 2}
+  - {fileID: 11400000, guid: 92b17ddcb737b094fac3e6c4458348fa, type: 2}
+  - {fileID: 11400000, guid: 639737b0549169f4784ccb6185f3eb42, type: 2}
+  - {fileID: 11400000, guid: 68e8645abe96e204aa7e9cb6cbc28439, type: 2}
+  - {fileID: 11400000, guid: c82dd868afdb6bb46aef715d398b61c0, type: 2}
+  - {fileID: 11400000, guid: 7a9d08b4c06cd774c9dff260aaa195e9, type: 2}
+  - {fileID: 11400000, guid: cab9d353a8ec8244ab302c35fffa1035, type: 2}
+  - {fileID: 11400000, guid: c75a347f25291194ca05257f976bbe84, type: 2}
+  - {fileID: 11400000, guid: 26823abe437c1c9438d9c977c86f9908, type: 2}
+  - {fileID: 11400000, guid: bcd28f8632afc294dac2532e53211d7b, type: 2}
+  - {fileID: 11400000, guid: f75d74e07bd17b240900bac63cba4bb2, type: 2}
+  - {fileID: 11400000, guid: f73533c00522ac34cb66fe171fb7cba1, type: 2}
+  - {fileID: 11400000, guid: 68acce214a133044aa318d9dc4fe1302, type: 2}
+  hiddenNames:
+  - "\u65C1\u767D"
